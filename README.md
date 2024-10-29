@@ -26,7 +26,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Virtual Machines (2 Windows, 1 Linux)
 - Virtual Network (VNet)
 
-For the "BEFORE" metrics, all resources were originally deployed, and then exposed to the internet. The Virtual Machines Network Security Groups and built-in firewalls were configured to be open to all types of network traffic, and all other Azure resources were deployed with public endpoints visible to the Internet.
+For the "BEFORE" metrics, all Azure resources were originally deployed, and then exposed to the internet. The Virtual Machines Network Security Groups and built-in firewalls were configured to be open to all types of network traffic, and all other Azure resources were deployed with public endpoints visible to the Internet.
 
 For the "AFTER" metrics, Network Security Groups were reconfigured by blocking all network traffic with the exception of my workstation IP address, and all the other Azure resources were protected by their built-in firewalls including utilizing Azure Private Endpoint.
 
