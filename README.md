@@ -31,7 +31,9 @@ For the "BEFORE" metrics, all resources were originally deployed, and then expos
 For the "AFTER" metrics, Network Security Groups were reconfigured by blocking all network traffic with the exception of my workstation IP address, and all the other Azure resources were protected by their built-in firewalls including utilizing Azure Private Endpoint.
 
 ## Attack Maps Before Hardening / Security Controls
-
+![Linux Syslog Auth Failures](https://i.imgur.com/dlTid3u.png)<br>
+![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/RbCHCt5.png)<br>
+![Windows RDP/SMB Auth Failures](https://i.imgur.com/KNPEk0Q.png)<br>
 
 ## Metrics Before Hardening / Security Controls
 
