@@ -1,5 +1,5 @@
 # Building a Security Operations Center (SOC) & Honeynet in Microsoft Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/QBRoQwa.png)
+![Cloud Honeynet / SOC](https://i.imgur.com/QBRoQwa.png?1)
 
 ## Introduction
 
@@ -12,7 +12,7 @@ In this project, I set up a mini honeynet in Microsoft Azure, collecting log sou
 - Syslog (Linux Event Logs)
 
 ## Architecture Before Hardening / Security Controls
-
+![Architecture Diagram](https://i.imgur.com/nqdD7Ud.png)
 
 ## Architecture After Hardening / Security Controls
 
