@@ -1,5 +1,5 @@
 # Building a Security Operations Center (SOC) & Honeynet in Microsoft Azure (Live Traffic)
-
+![Cloud Honeynet / SOC](https://i.imgur.com/QBRoQwa.png)
 
 ## Introduction
 
