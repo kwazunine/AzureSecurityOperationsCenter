@@ -15,6 +15,7 @@ In this project, I set up a mini honeynet in Microsoft Azure, collecting log sou
 ![Architecture Diagram](https://i.imgur.com/nqdD7Ud.png)
 
 ## Architecture After Hardening / Security Controls
+![Architecture Diagram](https://i.imgur.com/zTXMFPS.png)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -43,11 +44,11 @@ Stop Time 10/12/2024 12:23 PM ET
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 21058
-| Syslog                   | 8217
-| SecurityAlert            | 5
-| SecurityIncident         | 361
 | AzureNetworkAnalytics_CL | 4472
+| SecurityAlert            | 5
+| SecurityEvent            | 21058
+| SecurityIncident         | 361
+| Syslog                   | 8217
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -61,11 +62,11 @@ Stop Time 10/20/2024 4:51 PM ET
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 9163
-| Syslog                   | 7
-| SecurityAlert            | 0
-| SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+| SecurityAlert            | 0
+| SecurityEvent            | 9163
+| SecurityIncident         | 0
+| Syslog                   | 7
 
 ## Conclusion
 
